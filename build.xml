@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Calculator" default="default" basedir=".">
+
+    <taskdef name="bundleapp"
+             classname="com.oracle.appbundler.AppBundlerTask"
+             classpath="appbundler-1.0.jar" />
+
+    <target name="bundle-Calculator">
+        <bundleapp outputdirectory="dist"
+            name="Calculator"
+            displayname="Calculator"
+            identifier="app"
+            mainclassname="app.core">
+            <classpath file="./target/app-0.1.0-SNAPSHOT-standalone.jar" />
+        </bundleapp>
+    </target>
+</project>
