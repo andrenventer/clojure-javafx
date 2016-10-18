@@ -1,0 +1,26 @@
+.button-function {
+-fx-text-fill: white;
+-fx-font-family: "Arial";
+-fx-font-size: 28;
+-fx-background-color: linear-gradient(#FE8B00, #FE8B00);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button-main {
+-fx-text-fill: #292D33;
+-fx-font-family: "Arial";
+-fx-font-size: 24;
+-fx-background-color: linear-gradient(#E0E0E0, #E0E0E0);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button-clear {
+-fx-text-fill: #292D33;
+-fx-font-family: "Arial";
+-fx-font-size: 20;
+-fx-background-color: linear-gradient(#E0E0E0, #E0E0E0);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.display {
+  -fx-text-fill: white;
+  -fx-font-family: "Arial";
+  -fx-background-color: linear-gradient(#292D31, #292D31);
+}

@@ -12,4 +12,4 @@
   (Application/launch app.core args))
 
 (defn -start [this stage]
-  (fx-window stage (app.view.Main.) "JavaFXML & Clojure"))
+  (fx-window stage (app.view.Main.) ""))
