@@ -19,6 +19,8 @@
 (defmacro fx-window [stage view title]
   `(let [root# (.loadFxml ~view)]
      (.setScene ~stage (Scene. root#))
+     (.setAlwaysOnTop ~stage 'true)
+     ;;(.initStyle ~stage (StageStyle. 'TRANSPARENT))
      (.setTitle ~stage ~title)
      (.show ~stage)))
 
