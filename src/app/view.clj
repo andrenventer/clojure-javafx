@@ -90,7 +90,7 @@
 
     (defn compute []
       (.setText DisplayLabel
-          (str (calc-debug (apply str (seq (deref calculation)))))))
+          (str (calc (apply str (seq (deref calculation)))))))
 
 (comment
 

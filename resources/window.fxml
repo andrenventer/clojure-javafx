@@ -137,7 +137,7 @@
                      <GridPane.margin>
                         <Insets left="1.0" right="1.0" />
                      </GridPane.margin></Button>
-                            <Button fx:id="Button0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" styleClass="button-main" text="0" GridPane.columnSpan="2" GridPane.rowIndex="4">
+                            <Button fx:id="Button0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" styleClass="button-main" text="0        " GridPane.columnSpan="2" GridPane.rowIndex="4">
                      <GridPane.margin>
                         <Insets left="1.0" right="1.0" />
                      </GridPane.margin></Button>
