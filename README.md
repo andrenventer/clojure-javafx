@@ -25,6 +25,10 @@ mvn install:install-file  \
  -Dversion=2.2.0
 ```
 
+## Credits
+
+http://eddmann.com/posts/infix-calculator-in-clojure/
+
 ## License
 
 Distributed under the Eclipse Public License either version 1.0 or (at
