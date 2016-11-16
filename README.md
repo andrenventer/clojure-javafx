@@ -8,6 +8,8 @@ You need Leiningen, Maven and Ant
 
 Download and install "jfxrt.jar" into your local Maven repository.
 
+Download the App Builder from https://java.net/projects/appbundler/downloads
+
 ## Build
 
 ```
@@ -22,7 +24,7 @@ mvn install:install-file  \
  -DgroupId=com.oracle \
  -DartifactId=javafx-runtime \
  -Dpackaging=jar \
- -Dversion=2.2.0
+ -Dversion=2.2.3
 ```
 
 ## Credits
