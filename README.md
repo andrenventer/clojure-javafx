@@ -10,6 +10,8 @@ $ cd clojure-javafx
 $ lein run
 ```
 
+[![calculator](./screen.png)](./screen.png?raw=true)
+
 ## Credits
 
 http://eddmann.com/posts/infix-calculator-in-clojure/
