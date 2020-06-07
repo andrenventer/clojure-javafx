@@ -1,14 +1,16 @@
 (ns app.view
   (:gen-class
    :name app.view.Main
-   :prefix view-
+   :prefix "view-"
    :methods [[loadFxml [] javafx.scene.Parent]])
-  (:import (javafx.scene Parent))
-  (:use [app.jfx]))
+  (:import
+   (javafx.scene Parent))
+  (:require
+   [app.jfx :refer [fx-action]]))
 
 (defn view-loadFxml [this]
   "Load the FXML and create a view for display in a parent"
-  (let [root (fx-load-fxml "window.fxml")
+  (let [root (app.jfx/fx-load-fxml "window.fxml")
         DisplayLabel (.lookup root "#DisplayLabel")
         ButtonAllClear (.lookup root "#ButtonAllClear")
         LeftBracket (.lookup root "#LeftBracket")
