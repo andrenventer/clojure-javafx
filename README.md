@@ -2,6 +2,14 @@
 
 A calculator desktop application for OS X written with Clojure and JavaFX.
 
+## Usage
+
+```bash
+$ git clone https://github.com/torkus/clojure-javafx
+$ cd clojure-javafx
+$ lein run
+```
+
 ## Credits
 
 http://eddmann.com/posts/infix-calculator-in-clojure/
