@@ -30,7 +30,7 @@ and executable as:
 
 ## Build for Mac
 
-You need Leiningen, Maven and Ant.
+You need Leiningen Ant.
 
     ./build.sh
 
