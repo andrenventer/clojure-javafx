@@ -1,6 +1,7 @@
 /classes
 /checkouts
-pom.xml
+target/
+dist/
 pom.xml.asc
 *.class
 /.lein-*
