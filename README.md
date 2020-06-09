@@ -2,15 +2,41 @@
 
 A calculator desktop application for OS X written with Clojure and JavaFX.
 
-## Usage
+## Quick Usage
+
+You need Leiningen.
 
 ```bash
-$ git clone https://github.com/torkus/clojure-javafx
+$ git clone https://github.com/andrenventer/clojure-javafx
 $ cd clojure-javafx
 $ lein run
 ```
 
 [![calculator](./screen.png)](./screen.png?raw=true)
+
+## Build JAR
+
+You need Leiningen
+
+    lein uberjar
+
+And the built artifact is available at:
+
+    ./target/app-0.2.0-SNAPSHOT-standalone.jar
+
+and executable as:
+
+    java -jar ./target/app-0.2.0-SNAPSHOT-standalone.jar
+
+## Build for Mac
+
+You need Leiningen, Maven and Ant.
+
+    ./build.sh
+
+And the built artifact is available in `./dist/Calculator.app`
+
+App Bundler used to be available from: https://java.net/projects/appbundler/downloads
 
 ## Credits
 
